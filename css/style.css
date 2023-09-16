@@ -91,6 +91,14 @@ header {
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.7px;
+    transition: all 0.8s;
+    padding: 5px;
+}
+
+.header-right ul li a:hover {
+    color: var(--text-color);
+    box-shadow: 0px 5px 5px 5px;
+    background: linear-gradient(90deg, blue, red,  green);
 }
 
 .header-midlle {
@@ -132,7 +140,7 @@ header {
     margin-top: 200px;
 }
 
-.header-midlle-footer h6 {
+.header-midlle-footer a {
     color: var(--white-color);
     text-align: center;
     font-family: "Releway";
@@ -140,6 +148,11 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-decoration: none;
+}
+
+.header-midlle-footer a:hover {
+    color: var(--text-color);
 }
 
 .header-midlle-footer span {
@@ -167,7 +180,6 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border: 1px solid; */
 }
 
 .boxs {
@@ -177,7 +189,6 @@ section {
     align-items: center;
     justify-content: space-between;
     gap: 60px;
-    /* border: 1px solid; */
     margin-top: 120px;
 }
 
@@ -267,7 +278,12 @@ aside {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+}
+
+aside {
+    background-image: url(../images/aside-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .aside-many {
@@ -303,15 +319,12 @@ aside {
     text-transform: capitalize;
 }
 
-
-
 .aside-box {
     width: 540px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
-
 
 .aside-box p {
     color: #E7E7E7;
@@ -322,7 +335,6 @@ aside {
     font-weight: 400;
     line-height: 16px;
     width: 255px;
-
 }
 
 .aside-box button {
@@ -330,7 +342,7 @@ aside {
     background: #BEBEBE;
     width: 255px;
     height: 50px;
-    color: var(--white-color); 
+    color: var(--white-color) ;
     font-family: "Releway";
     font-size: 14px;
     font-style: normal;
@@ -338,6 +350,12 @@ aside {
     line-height: 27px;
     border: none;
     border-radius: 4px;
+    cursor: pointer;
+}
+
+.aside-box-btn {
+    opacity: 1;
+    color: var(--white-color) ;
 }
 
 .aside-box .aside-btn {
@@ -352,6 +370,16 @@ aside {
     line-height: 27px;
     border: none;
     border-radius: 4px;
+}
+
+.aside-box button:active {
+    background: var(--text-color);
+    opacity: 1;
+}
+
+.aside-box .aside-btn:active {
+    background: #242B33;
+    border: 1px solid;
 }
 
 /* ############################## */
@@ -401,6 +429,12 @@ main {
     margin-top: 100px;
 }   
 
+.main-bg img {
+    width: 100%;
+    height: 100%;
+
+}
+
 
 /* ############################# */
 .sidebar {
@@ -439,6 +473,16 @@ main {
     gap: 31px;
 }
 
+.sidebar-button button:active {
+    background: var(--text-color);
+    opacity: 1;
+}
+
+.sidebar-button .sidebar-btn:active {
+    border: 1px solid;
+    background: #242B33;
+}
+
 .sidebar-box .sidebar-btn {
     opacity: 1;
     color: var(--white-color);
@@ -448,7 +492,7 @@ main {
     font-style: normal;
     font-weight: 700;
     line-height: 27px;
-    background:  #D4C17F !important;
+    background:  #D4C17F ;
     border: none;
     cursor: pointer;
 }
@@ -539,6 +583,10 @@ footer {
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.7px;
+}
+
+.footer-boxs ul li a:hover {
+    color: var(--text-color);
 }
 
 .footer-img {

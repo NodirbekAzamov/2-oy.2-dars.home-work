@@ -1,0 +1,552 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #242B33;
+}
+
+:root {
+    --text-color: #D4C17F;
+    --white-color: #fff;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../Roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: "Releway";
+    src: url(../Raleway/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Playfair Dispaly";
+    src: url(../Playfair_Display/static/PlayfairDisplay-Bold.ttf);
+}
+
+header {
+    width: 100%;
+    height: 840px;
+    background-image: url(../images/Rectangle-header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    /* border: 1px solid; */
+}
+
+.header-many {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+}
+
+
+.header-left {
+    margin-top: 30px;
+}
+
+.header-left h3 {
+    color: var(--white-color);
+    font-family: Post No Bills Jaffna SemiBold;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.header-left p {
+    color: var(--white-color);
+    font-family: "Releway";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.44px;
+    margin-top: 15px;
+}
+
+.header-right ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.header-right ul li a {
+    text-decoration: none;
+    color: var(--white-color);
+    font-family: "Releway";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.7px;
+}
+
+.header-midlle {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 582px;
+    height: 470px;
+    top: 296px;
+    left: 400px;
+    position: absolute;
+}
+
+.header-midlle-many {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-midlle h3 {
+    color: var(--text-color);
+    text-align: center;
+    font-family: "Playfair Dispaly";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header-midlle img {
+    margin-top: 100px;
+}
+
+.header-midlle-footer {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    margin-top: 200px;
+}
+
+.header-midlle-footer h6 {
+    color: var(--white-color);
+    text-align: center;
+    font-family: "Releway";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header-midlle-footer span {
+    color: var(--white-color);
+    font-size: 20px;
+
+}
+
+.header-midlle-footer-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-midlle-footer-right {
+    display: flex; 
+    align-items: center;
+    gap: 15px;
+}
+
+/* ############# */
+section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid; */
+}
+
+.boxs {
+    width: 900px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    /* border: 1px solid; */
+    margin-top: 120px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 53px;
+}
+
+.box p{
+    color: var(--white-color);
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+/* ############################### */
+.section1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1-many {
+    /* border: 1px solid; */
+    margin-top: 120px;
+    width: 1100px;
+    height: 806px;
+}
+
+
+
+.section1-many h5 {
+    color: var(--text-color);
+    font-family: "Playfair Dispaly";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section1-boxs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.section1-box {
+    background-image: url(../images/section1-img.png);
+    width: 535px;
+    height: 320px;
+    position: relative;
+}
+
+.section1-box p {
+    color: var(--white-color);
+    font-family: "Releway";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 248px;
+    left: 50px;
+}
+
+.section1-box:nth-child(3) {
+    margin-top: 30px;
+}
+.section1-box:nth-child(4) {
+    margin-top: 30px;
+}
+
+/* ######################################## */
+aside {
+    width: 100%;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.aside-many {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 35px;
+    width: 1100px;
+
+}
+
+.aside-left {
+    width: 535px;
+}
+
+.aside-left h3 {
+    color: var(--text-color);
+    font-family: "Playfair Dispaly";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}   
+
+.aside-left p {
+    color: var(--white-color);
+    font-family: "Releway";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 50px;
+    text-transform: capitalize;
+}
+
+
+
+.aside-box {
+    width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+.aside-box p {
+    color: #E7E7E7;
+    text-align: center;
+    font-family: "Releway";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    width: 255px;
+
+}
+
+.aside-box button {
+    opacity: 0.2;
+    background: #BEBEBE;
+    width: 255px;
+    height: 50px;
+    color: var(--white-color); 
+    font-family: "Releway";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    border: none;
+    border-radius: 4px;
+}
+
+.aside-box .aside-btn {
+    opacity: 1;
+    color: var(--white-color);
+    background: #D4C17F ;
+    text-align: center;
+    font-family: "Releway";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    border: none;
+    border-radius: 4px;
+}
+
+/* ############################## */
+.video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+video {
+    width: 719px;
+    height: 650px;
+    background: transparent;
+}
+
+/* ########################## */
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main-many {
+    margin: 180px 120px 0 120px;
+    width: 1110px;
+    height: 494px;
+
+}
+
+.main-many h2 {
+    color: #D4C17F;
+    font-family: "Playfair Dispaly";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main-bg {
+    width: 1110px;
+    height: 358px;
+    background: #626262;
+    margin-top: 100px;
+}   
+
+
+/* ############################# */
+.sidebar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar-many {
+    width: 1115px;
+    height: 136px;
+    margin-top: 180px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.sidebar-box {
+    display: flex;
+    align-items: flex-end;
+}
+
+.sidebar-box button {
+    width: 255px;
+    height: 50px;
+    opacity: 0.2;
+    background: var(--white-color);
+    border: none;
+    cursor: pointer;
+}
+
+.sidebar-button  {
+    display: flex;
+    gap: 31px;
+}
+
+.sidebar-box .sidebar-btn {
+    opacity: 1;
+    color: var(--white-color);
+    text-align: center;
+    font-family: "Releway";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    background:  #D4C17F !important;
+    border: none;
+    cursor: pointer;
+}
+
+.sidebar-text {
+    width: 285px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 61px;
+    flex-direction: column;
+}
+
+.sidebar-text h6 {
+    color:  #D4C17F;
+    font-family: "Playfair Dispaly";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sidebar-text p {
+    color: #E7E7E7;
+    text-align: center;
+    font-family: "Releway";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+/* ########################3 */
+footer {
+    width: 100%;
+    height: 272px;
+    padding: 0 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2D343C;
+    margin-top: 180px;
+}
+
+
+.footer-boxs {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 140px;
+}
+
+
+.footer-box1 h6 {
+    color: var(--white-color);
+    font-family: "Roboto";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: 'Post No Bills Jaffna', sans-serif;
+}
+
+.footer-box1 p {
+    color: var(--white-color);
+    font-family: "Releway";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.44px;
+    margin-top: 15px;
+}
+
+.footer-box4 span {
+    color: var(--text-color);
+}
+
+.footer-boxs ul {
+    list-style: none;
+}
+
+.footer-boxs ul li a {
+    text-decoration: none;
+    color: var(--white-color);
+    font-family: "Releway";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.7px;
+}
+
+.footer-img {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px; 
+}
+
+.footer-boxs ul {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}

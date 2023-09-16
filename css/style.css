@@ -15,17 +15,17 @@ body {
 
 @font-face {
     font-family: "Roboto";
-    src: url(../Roboto/Roboto-Light.ttf);
+    src: url(../fonts/Roboto/Roboto-Light.ttf);
 }
 
 @font-face {
     font-family: "Releway";
-    src: url(../Raleway/Roboto-Regular.ttf);
+    src: url(../fonts/Raleway/Roboto-Regular.ttf);
 }
 
 @font-face {
     font-family: "Playfair Dispaly";
-    src: url(../Playfair_Display/static/PlayfairDisplay-Bold.ttf);
+    src: url(../fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf);
 }
 
 header {
